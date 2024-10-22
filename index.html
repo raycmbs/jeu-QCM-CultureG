@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - jeu</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz de Culture Générale</title>
+</head>
+<body>
+    <div id="app">
+        <div id="start-interface" class="interface">
+            <h1>Bienvenue au Quiz !</h1>
+            <input type="text" id="pseudo" placeholder="Entrez votre pseudo" />
+            <button id="commencer">Commencer</button>
+        </div>
+
+        <div id="qcm-interface" class="interface" style="display:none;">
+            <h1 id="question-title"></h1>
+            <p id="question"></p>
+            <div id="choix-container"></div>
+            <button id="verifier">Vérifier</button>
+            <p id="message" style="display:none;"></p>
+            <p id="score">Score : 0</p>
+        </div>
+
+        <div id="fin-interface" class="interface" style="display:none;">
+            <h1>Fin du Quiz !</h1>
+            <p id="joueur"></p>
+            <p id="score-final"></p>
+            <button id="rejouer">Rejouer</button>
+            <button id="reset-classement">Réinitialiser le classement</button>
+            <ul id="classement"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

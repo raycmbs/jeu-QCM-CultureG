@@ -1,0 +1,95 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#app {
+    max-width: 600px; /* Limiter la largeur sur des écrans plus larges */
+    margin: auto; /* Centrer le contenu */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px; /* Ajout d'une marge inférieure */
+}
+
+input[type="text"] {
+    width: 100%; /* Prend 100% de la largeur */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Taille de police adaptée */
+}
+
+button {
+    width: 100%; /* Prend 100% de la largeur */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px; /* Taille de police adaptée */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px; /* Ajout d'une marge supérieure */
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.interface {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre les éléments horizontalement */
+}
+
+#choix-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.choix {
+    background-color: #e9ecef;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Prend 100% de la largeur */
+}
+
+.choix:hover {
+    background-color: #d3d3d3;
+}
+
+.choix.active {
+    background-color: #007bff;
+    color: white;
+}
+
+#message {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#classement {
+    list-style-type: none;
+    padding: 0;
+}
+
+#classement li {
+    margin: 5px 0;
+    text-align: center; /* Centre les éléments de la liste */
+}
